@@ -23,3 +23,29 @@ def DeltaSGD(W, X, D):
         W[0][2] = W[0][2] + dW[2]
         
     return W
+    
+def TestDeltaSGD():
+    X = np.array([[0, 0, 1],
+                  [0, 1, 1],
+                  [1, 0, 1],
+                  [1, 1, 1]])
+    
+    D = np.array([[0],
+                  [0],
+                  [1],
+                  [1]])
+        
+    W = 2*np.random.random((1, 3)) - 1
+        
+    for _epoch in range(10000):
+        W = DeltaSGD(W, X, D)
+                
+    N = 4
+    for k in range(N):
+        x = X[k,:].T
+        v = np.matmul(W, x)
+        y = Sigmoid(v)
+        print(y)
+
+if __name__ == '__main__':
+    TestDeltaSGD()
