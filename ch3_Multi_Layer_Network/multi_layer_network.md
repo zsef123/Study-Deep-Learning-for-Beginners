@@ -11,7 +11,7 @@ Chapter 3. 다층 신경망의 학습
 
 ### XOR Problem
 역전파 적용 예제
-[BackpropXOR.py](ch3_Multi_Layer_Network/BackpropXOR.py)
+[BackpropXOR.py](BackpropXOR.py)
 
 ## 모멘텀
 + δw = a * δ * x
@@ -36,8 +36,8 @@ Cross entropy가 오차에 더 민감하게 반응한다.
 + λ => 연결 가중치의 크기를 얼마나 반영할 것인가.
 따라서 비용함수의 값을 낮추려면 출력 오차를 줄이고 가중치의 크기도 작아야한다.
 가중치의 값이 충분히 작으면 노드 사이의 연결이 끊긴것과 같게 된다.
-[BackpropCE.py](ch3_Multi_Layer_Network/BackpropCE.py)
+[BackpropCE.py](BackpropCE.py)
 
 ## Cross Entropy vs XOR 
-[CEvsSSE.py](ch3_Multi_Layer_Network/CEvsSSE.py)
+[CEvsSSE.py](CEvsSSE.py)
 ### CE가 더 빠르다 
