@@ -17,20 +17,19 @@ Chapter 2. 신경망
 + φ = 1 / (1 + e ^ -x)      ... Signoid = Activation Function
 + φ' = φ (1 - φ)
   
-1. SGD (Stochastic Gradient Descent)
-### 한개의 데이터마다 매번 가중치 갱신
+## SGD (Stochastic Gradient Descent)
++ 한개의 데이터마다 매번 가중치 갱신
 + 위의 일반적인 델타 규칙 적용
 + 간단한 구현 
-[DeltaSGD.py](ch2_Neural_Network/DeltaSGD.py)
+> [DeltaSGD.py](ch2_Neural_Network/DeltaSGD.py)
 
-2. 배치
+## 배치
 + 모든 학습 데이터의 오차에 관한 가중치 갱신값의 평균으로 갱신
 + 평균을 계산하는데 비용이 크다, 특정 학습 데이터에 따라 학습 편차 큼.
-[DeltaBatch.py](ch2_Neural_Network/DeltaBatch.py)
+> [DeltaBatch.py](ch2_Neural_Network/DeltaBatch.py)
 
-3. 미니배치
+## 미니배치
 + SGD+배치, 임의의 데이터 가중치 갱신값의 평균
+> [SGD vs Batch.py](ch2_Neural_Netword/SGDvsBatch.py)
 
-> [SGD vs Batch](ch2_Neural_Netword/SGDvsBatch.py)
-
-+ 하지만 단층 신경망은 선형 분리 불가능 문제를 해결하지 못한다.
+### 하지만 단층 신경망은 선형 분리 불가능 문제를 해결하지 못한다.
