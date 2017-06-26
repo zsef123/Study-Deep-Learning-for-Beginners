@@ -41,3 +41,5 @@ Cross entropy가 오차에 더 민감하게 반응한다.
 ## Cross Entropy vs XOR 
 [CEvsSSE.py](CEvsSSE.py)
 ### CE가 더 빠르다 
+
+[Prev](../ch2_Neural_Network/neural_network.md) / [List](../readme.md)

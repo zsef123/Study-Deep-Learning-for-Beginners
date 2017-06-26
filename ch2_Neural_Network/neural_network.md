@@ -20,7 +20,7 @@ Chapter 2. 신경망
 ## SGD (Stochastic Gradient Descent)
 + 한개의 데이터마다 매번 가중치 갱신
 + 위의 일반적인 델타 규칙 적용
-+ 간단한 구현 
++ 간단한 구현
 > [DeltaSGD.py](DeltaSGD.py)
 
 ## 배치
@@ -34,4 +34,4 @@ Chapter 2. 신경망
 
 ### 하지만 단층 신경망은 선형 분리 불가능 문제를 해결하지 못한다.
 
-[list](../readme.md) / [Next](../ch3_Multi_Layer_Network/multi_layer_network.md)
+[Prev](../ch1_MachineLearning/machine_learning.md) / [List](../readme.md) / [Next](../ch3_Multi_Layer_Network/multi_layer_network.md)

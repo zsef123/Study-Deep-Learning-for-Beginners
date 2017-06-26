@@ -13,4 +13,4 @@ AI, Machine Learning, Deep Learning
 3. 강화학습 : {입력,출력,점수}
 
 
-[list](../readme.md) / [Next](../ch2_Neural_Network/neural_network.md)
+[List](../readme.md) / [Next](../ch2_Neural_Network/neural_network.md)
