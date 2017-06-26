@@ -33,3 +33,5 @@ Chapter 2. 신경망
 > [SGD vs Batch.py](SGDvsBatch.py)
 
 ### 하지만 단층 신경망은 선형 분리 불가능 문제를 해결하지 못한다.
+
+[list](../readme.md) / [Next](../ch3_Multi_Layer_Network/multi_layer_network.md)

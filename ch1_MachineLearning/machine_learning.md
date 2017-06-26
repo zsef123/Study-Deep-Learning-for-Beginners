@@ -11,3 +11,6 @@ AI, Machine Learning, Deep Learning
 1. 지도 학습 : {입력, 정답}
 2. 비지도 학습 : {입력}
 3. 강화학습 : {입력,출력,점수}
+
+
+[list](../readme.md) / [Next](../ch2_Neural_Network/neural_network.md)
