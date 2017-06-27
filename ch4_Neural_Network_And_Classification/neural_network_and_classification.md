@@ -27,3 +27,5 @@ Chapter 4. 신경망과 분류
 ## Summary
 + 이진 분류    - 출력노드 1개, 활성함수=Sigmoid, Cost=Cross Entropy
 + 다범주 분류  - 출력노드 n개, 활성함수=One-hot or 1-of-N, Cost=Cross Entropy
+
+[Prev](../ch3_Multi_Layer_Network/multi_layer_network) / [List]( ../readme.md) / [Next](../ch5_Deep_Learning/deep_learning.md)

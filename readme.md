@@ -7,8 +7,8 @@
 
 [Chapter 3](ch3_Multi_Layer_Network/multi_layer_network.md)
 
-[Chapter 4]()
+[Chapter 4](ch4_Neural_Network_And_Classification/neural_network_and_classification.md)
 
-[Chapter 5]()
+[Chapter 5](ch5_Deep_Learning/deep_learning.md)
 
 [Chapter 6]()
