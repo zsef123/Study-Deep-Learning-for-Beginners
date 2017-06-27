@@ -22,3 +22,5 @@ Chapter 5. 딥러닝
 
 3. 많은 계산량
 + GPU, 배치 정규화
+
+[Prev](../ch4_Neural_Network_And_Classfication/neural_network_and_classification.md) / [List](../readme.md) / [Next]
