@@ -11,4 +11,4 @@
 
 [Chapter 5](ch5_Deep_Learning/deep_learning.md)
 
-[Chapter 6]()
+[Chapter 6](ch6_Convolution_NN/convolution_nn.md)

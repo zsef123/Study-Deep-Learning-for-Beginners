@@ -21,8 +21,9 @@ Chapter 4. 신경망과 분류
 + 확률로 해석 가능하다.
 + n=2면 Sigmoid와 동일
 
-[MultiClass](MultiClass.py)
-[RealMultiClass](RealMultiClass.py) - 분류 결과 출력
+>[MultiClass](MultiClass.py)
+
+>[RealMultiClass](RealMultiClass.py) - 분류 결과 출력
 
 ## Summary
 + 이진 분류    - 출력노드 1개, 활성함수=Sigmoid, Cost=Cross Entropy
